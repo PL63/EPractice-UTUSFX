@@ -1,39 +1,60 @@
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+using System.Linq;
+
+using EPractice.Models;
+using EPractice.Services;
 
 namespace EPractice.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class StudenController : ControllerBase
+    public class StudentController : ControllerBase
     {
-        public class Student
-        {
-            public string CI { get; set; }
-            public string Name { get; set; }
-            public double Grade { get; set; }
-            public bool IsApproved => Grade >= 51;
-        }
+        
+        private IStudentService _studentService;
+       
 
-        // Example in-memory data
-        private static readonly List<Student> Students = new List<Student>
+        public StudentController(IStudentService studentService)
         {
-            new Student { CI = "123456", Name = "Alice", Grade = 75 },
-            new Student { CI = "654321", Name = "Bob", Grade = 45 }
-        };
+            _studentService = studentService;
+        }
 
         [HttpGet]
-        public ActionResult<IEnumerable<Student>> GetAll()
+        public List<Student> GetAll()
         {
-            return Ok(Students);
+            return _studentService.GetAll();
         }
 
-        [HttpGet("{ci}")]
-        public ActionResult<Student> GetByCI(string ci)
+        [HttpGet("{CI}")]
+        public Student GetById(int CI)
         {
-            var student = Students.FirstOrDefault(s => s.CI == ci);
-            if (student == null)
-                return NotFound();
-            return Ok(student);
+            return _studentService.GetById(CI);
+        }
+
+        [HttpGet("/Has-Approved/{CI}")]
+        public Boolean EvaluateStudentHasApproved(int CI)
+        {
+            return _studentService.HasApproved(CI);
+        }
+
+        [HttpPost]
+        public Student Create(Student student)
+        {
+            return _studentService.Create(student);
+        }
+
+        [HttpPut("{CI}")]
+        public Student Update(int CI, Student updatedStudent)
+        {
+            return _studentService.Update(CI, updatedStudent);
+        }
+
+        [HttpDelete("{CI}")]
+        public Student Delete(int CI)
+        {
+            return _studentService.Delete(CI);
         }
     }
+
 }
