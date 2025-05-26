@@ -15,6 +15,7 @@ C:\UnitTesting\EPractice\obj\Debug\net9.0\EPractice.AssemblyInfo.cs
 C:\UnitTesting\EPractice\obj\Debug\net9.0\EPractice.csproj.CoreCompileInputs.cache
 C:\UnitTesting\EPractice\obj\Debug\net9.0\EPractice.MvcApplicationPartsAssemblyInfo.cs
 C:\UnitTesting\EPractice\obj\Debug\net9.0\EPractice.MvcApplicationPartsAssemblyInfo.cache
+C:\UnitTesting\EPractice\obj\Debug\net9.0\EPractice.sourcelink.json
 C:\UnitTesting\EPractice\obj\Debug\net9.0\scopedcss\bundle\EPractice.styles.css
 C:\UnitTesting\EPractice\obj\Debug\net9.0\staticwebassets.build.json
 C:\UnitTesting\EPractice\obj\Debug\net9.0\staticwebassets.development.json

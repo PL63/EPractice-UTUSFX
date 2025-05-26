@@ -15,6 +15,7 @@ C:\UnitTesting\Epractice.Tests\bin\Debug\net9.0\Epractice.Tests.deps.json
 C:\UnitTesting\Epractice.Tests\bin\Debug\net9.0\Epractice.Tests.runtimeconfig.json
 C:\UnitTesting\Epractice.Tests\bin\Debug\net9.0\Epractice.Tests.dll
 C:\UnitTesting\Epractice.Tests\bin\Debug\net9.0\Epractice.Tests.pdb
+C:\UnitTesting\Epractice.Tests\bin\Debug\net9.0\Castle.Core.dll
 C:\UnitTesting\Epractice.Tests\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
 C:\UnitTesting\Epractice.Tests\bin\Debug\net9.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\UnitTesting\Epractice.Tests\bin\Debug\net9.0\Microsoft.OpenApi.dll
@@ -25,6 +26,7 @@ C:\UnitTesting\Epractice.Tests\bin\Debug\net9.0\Microsoft.TestPlatform.Communica
 C:\UnitTesting\Epractice.Tests\bin\Debug\net9.0\Microsoft.TestPlatform.CrossPlatEngine.dll
 C:\UnitTesting\Epractice.Tests\bin\Debug\net9.0\Microsoft.TestPlatform.Utilities.dll
 C:\UnitTesting\Epractice.Tests\bin\Debug\net9.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\UnitTesting\Epractice.Tests\bin\Debug\net9.0\Moq.dll
 C:\UnitTesting\Epractice.Tests\bin\Debug\net9.0\Newtonsoft.Json.dll
 C:\UnitTesting\Epractice.Tests\bin\Debug\net9.0\xunit.abstractions.dll
 C:\UnitTesting\Epractice.Tests\bin\Debug\net9.0\xunit.assert.dll
@@ -102,11 +104,10 @@ C:\UnitTesting\Epractice.Tests\obj\Debug\net9.0\Epractice.Tests.GeneratedMSBuild
 C:\UnitTesting\Epractice.Tests\obj\Debug\net9.0\Epractice.Tests.AssemblyInfoInputs.cache
 C:\UnitTesting\Epractice.Tests\obj\Debug\net9.0\Epractice.Tests.AssemblyInfo.cs
 C:\UnitTesting\Epractice.Tests\obj\Debug\net9.0\Epractice.Tests.csproj.CoreCompileInputs.cache
+C:\UnitTesting\Epractice.Tests\obj\Debug\net9.0\Epractice.Tests.sourcelink.json
 C:\UnitTesting\Epractice.Tests\obj\Debug\net9.0\Epractic.75FC6627.Up2Date
 C:\UnitTesting\Epractice.Tests\obj\Debug\net9.0\Epractice.Tests.dll
 C:\UnitTesting\Epractice.Tests\obj\Debug\net9.0\refint\Epractice.Tests.dll
 C:\UnitTesting\Epractice.Tests\obj\Debug\net9.0\Epractice.Tests.pdb
 C:\UnitTesting\Epractice.Tests\obj\Debug\net9.0\Epractice.Tests.genruntimeconfig.cache
 C:\UnitTesting\Epractice.Tests\obj\Debug\net9.0\ref\Epractice.Tests.dll
-C:\UnitTesting\Epractice.Tests\bin\Debug\net9.0\Castle.Core.dll
-C:\UnitTesting\Epractice.Tests\bin\Debug\net9.0\Moq.dll
